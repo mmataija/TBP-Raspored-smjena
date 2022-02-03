@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+body {
+  background: #eedddd;
+}
+
+body .glavni {
+  display: -ms-grid;
+  display: grid;
+}
+
+body .glavni .registracija {
+  padding: 20px 20px 20px 20px;
+  margin-left: calc(50% - 250px);
+  margin-right: calc(50% - 250px);
+  margin-top: 200px;
+  background: #ead1dc;
+  width: 500px;
+  height: 600px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+body .glavni .registracija .forma {
+  width: 300px;
+  height: 300px;
+  margin-left: calc(50% - 150px);
+}
+
+body .glavni .registracija .forma form {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 90px;
+}
+
+body .glavni .registracija .forma form input {
+  height: 50px;
+  margin-top: 5px;
+  border-radius: 20px;
+
+}
+
+body .glavni .registracija .forma form button {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+body .glavni .prijava {
+  padding: 20px 20px 20px 20px;
+  margin-left: calc(50% - 250px);
+  margin-right: calc(50% - 250px);
+  margin-top: 200px;
+  background: #ead1dc;
+  width: 500px;
+  height: 600px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+body .glavni .prijava .forma {
+  width: 300px;
+  height: 300px;
+  margin-left: calc(50% - 150px);
+}
+
+body .glavni .prijava .forma form {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 90px;
+}
+
+body .glavni .prijava .forma form input {
+height: 50px;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+
+body .glavni .prijava .forma form button {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+body .raspored {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 200px 200px 200px 200px 200px 200px;
+      grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
+  -ms-grid-rows: 50px auto;
+      grid-template-rows: 50px auto;
+  margin-left: calc(50% - 735px);
+  grid-gap: 10px;
+  margin-top: calc(50% - 700px);
+}
+
+body .raspored .dan {
+  height: auto;
+  border-radius: 10px;
+}
+
+
+body .raspored #radniDani {
+  cursor: pointer;
+  font-family: "Nunito";
+  color: #333;
+  background: #c2c2c2;
+  border-radius: 10px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+body .raspored #radniDani .subject {
+  color: white;
+  border-radius: 10px;
+  height: 100px;
+  width: 180px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+body .raspored #vikendDani {
+  font-family: "Nunito";
+  color: #333;
+  border-radius: 10px;
+  background: #ffffff;
+  padding-top: 15px;
+  text-align: center;
+}
+
+body .raspored #vikendDani .subject {
+  color: white;
+  border-radius: 10px;
+  height: 100px;
+  width: 180px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+body .raspored .dodajSmjenu {
+  width: 500px;
+  height: 600px;
+  background-color: #a1d4db;
+  z-index: 1;
+  position: fixed;
+  margin-left: calc(50% - 250px);
+  border-radius: 20px;
+}
+
+body .raspored .dodajSmjenu .dodajFormu {
+  padding: 40px 40px 40px 40px;
+}
+
+body .raspored .dodajSmjenu .dodajFormu form input {
+  height: 50px;
+}
+
+body .raspored .dodajSmjenu .dodajFormu form #select {
+  height: 50px;
+}
+
+body .raspored .dodajSmjenu .dodajFormu form button {
+  margin-left: calc(50% - 60px);
+  margin-top: 30px;
+}
+
+body .buttons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100px 100px;
+      grid-template-columns: 100px 100px;
+  grid-gap: 20px;
+  margin-left: calc(50% + 450px);
+  margin-bottom: 50px;
+}
+
+body .buttons #buttonSubject {
+  background: #9b5e96;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+body .buttons #buttonSubject:hover {
+  background-color: #144c55;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+body .buttons #buttonSubject p {
+  text-align: center;
+  color: white;
+  font-family: "Nunito";
+  padding-top: 28px;
+}
+
+body .buttons #buttonNotes {
+  background: #2f6868;
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+body .buttons #buttonNotes:hover {
+  background-color: #14551f;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+body .buttons #buttonNotes p {
+  text-align: center;
+  color: white;
+  font-family: "Nunito";
+  padding-top: 28px;
+}
+
+body .timeSelect {
+  margin-left: calc(50% - 735px);
+  margin-top: -150px;
+  margin-bottom: 50px;
+}
+
+body .timeSelect form {
+  width: 200px;
+}
+
+body .poruke {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 30px;
+  -ms-grid-columns: 300px 300px 300px 300px;
+      grid-template-columns: 300px 300px 300px 300px;
+  margin-left: calc(50% - 650px);
+  margin-top: 50px;
+}
+
+body .poruke .dodajPoruku {
+  width: 500px;
+  height: auto;
+  background-color: #a1d4db;
+  z-index: 1;
+  position: fixed;
+  margin-left: calc(50% - 350px);
+  border-radius: 20px;
+}
+
+body .poruke .dodajPoruku .dodajFormu {
+  padding: 40px 40px 40px 40px;
+}
+
+body .poruke .dodajPoruku .dodajFormu form input {
+  height: 50px;
+}
+
+body .poruke .dodajPoruku .dodajFormu form .less {
+  margin-top: -43px;
+  margin-left: 25px;
+}
+
+body .poruke .dodajPoruku .dodajFormu form #note {
+  margin-top: 20px;
+}
+
+body .poruke .dodajPoruku .dodajFormu form #select {
+  height: 50px;
+}
+
+body .poruke .dodajPoruku .dodajFormu form .buttonsImportance button {
+  margin-top: 30px;
+}
+
+body .poruke .noteTrue {
+  width: 300px;
+  height: 300px;
+  background: #b17070;
+  padding: 30px 30px 30px 30px;
+  text-align: center;
+}
+
+body .poruke .noteTrue .remaining {
+  color: #7c279e;
+  font-weight: bold;
+}
+
+body .poruke .noteTrue .title {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+
+body .poruke .noteTrue p {
+  color: white;
+  font-family: "Nunito";
+}
+
+body .poruke .noteFalse {
+  width: 300px;
+  height: 300px;
+  background: #9acc90;
+  padding: 30px 30px 30px 30px;
+  text-align: center;
+}
+
+body .poruke .noteFalse .remaining {
+  color: #7c279e;
+  font-weight: bold;
+}
+
+body .poruke .noteFalse .title {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+
+body .poruke .noteFalse p {
+  color: white;
+  font-family: "Nunito";
+}
+/*# sourceMappingURL=main.css.map */
